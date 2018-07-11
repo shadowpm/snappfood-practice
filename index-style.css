@@ -39,20 +39,23 @@
     transition: all .7s;
     width: 120px;
 }
-.card-style {
+li .icon-holder {
+    background-color: white;
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+}
+li .icon-holder .icon {
     height: 80px;
     width: 80px;
     display: block;
-    border-radius: 50px;
-    background: #fff;
-    box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.2);
     margin: 30px auto 10px auto;
     transition: all .7s;
     padding: 15px;
 }
-.text-card {
-    margin-left: 35px;
-}
-.text-card2 {
-    margin-left: 25px;
+li .icon-text {
+    text-align: center;
+    margin: 10px 0 0 0;
 }
